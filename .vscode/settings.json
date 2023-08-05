@@ -14,5 +14,8 @@
       "username": "root",
       "askForPassword": true
     }
-  ]
+  ],
+  "sqltools.format": {
+    "language": "sql"
+  }
 }

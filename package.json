@@ -1,0 +1,29 @@
+{
+  "name": "sql-practice",
+  "description": "Practicing sql",
+  "private": true,
+  "scripts": {
+    "cz": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roysatadru/sql-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roysatadru/sql-practice/issues"
+  },
+  "homepage": "https://github.com/roysatadru/sql-practice#readme",
+  "dependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji-conventional": "^1.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji-conventional"
+    }
+  }
+}

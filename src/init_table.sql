@@ -1,0 +1,10 @@
+CREATE TABLE sales_table (
+  id INT PRIMARY KEY AUTO_INCREMENt,
+  date_created DATE DEFAULT (CURRENT_DATE),
+  date_fulfilled DATE,
+  customer_name VARCHAR(300) NOT NULL,
+  product_name VARCHAR(300) NOT NULL,
+  VOLUME NUMERIC(10,3) NOT NULL CHECK (volume >= 0),
+  is_recurring BOOLEAN DEFAULT FALSE,
+  is_disputed BOOLEAN DEFAULT FALSE
+);

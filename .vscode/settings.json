@@ -10,7 +10,7 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "mysql1",
-      "database": "online_shop",
+      "database": "sales_db",
       "username": "root",
       "askForPassword": true
     }

@@ -1,1 +1,1 @@
-DROP TABLE sales_table;
+DROP TABLE sales;

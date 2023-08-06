@@ -1,4 +1,4 @@
-CREATE TABLE sales_table (
+CREATE TABLE sales (
   id INT PRIMARY KEY AUTO_INCREMENt,
   date_created DATE DEFAULT (CURRENT_DATE),
   date_fulfilled DATE,
